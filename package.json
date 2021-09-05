@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://connormccarthy.net/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.coecis.cornell.edu/cjm365/website.git"
+    "url": "https://connor15mcc.github.io/website.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
