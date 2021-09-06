@@ -1,47 +1,37 @@
-// TODO Add a couple lines about each project
+// TODO Add techincal details about each project (language, tools, etc)
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Monopoly',
+    image: '/images/projects/monopoly.png',
+    date: '2021-05-25',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Replicated a four person game of Monopoly in OCaml. '
+      + 'This project, 2800 lines of code long, provided true-to-reality '
+      + 'Monopoly gameplay.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'COVID-19 Hospitalization Prediction',
+    image: '/images/projects/covid.jpg',
+    date: '2021-05-15',
+    desc: 'Predicted the number of COVID hospitalizations per '
+      + 'country using a variety of machine learning techniques, '
+      + 'including neural networks and SVMs. Achieved a sub 140k '
+      + 'MSE that ranked our group top ten in the class.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'EmPower Play',
+    image: '/images/projects/empower.jpg',
+    date: '2019-06-20',
+    desc: 'Worked with a local school to design software for children with severe disabilities '
+      + 'to interact and play stimulating computer games. Designed large capacitive surfaces that '
+      + 'connect via USB, allowing much more accessibility than a traditional mouse and keyboard.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'MediaHatch',
+    image: '/images/projects/mediahatch.jpg',
+    date: '2019-11-1',
+    desc: 'Developed a Python script that replicated human actions on Instagram, promoting social '
+      + 'growth and engagement for local small businesses.',
   },
 ];
 

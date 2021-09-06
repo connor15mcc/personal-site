@@ -19,18 +19,16 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Connor (TODO). I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>
+        Hi, my name&apos;s Connor.
+        I&apos;m a current junior studying Computer Science at Cornell University’s
+        College of Engineering seeking industry experience.
+        I&apos;m especially passionate about building complex software and in the
+        intersection of software engineering and data analysis.
       </p>
       <ul className="actions">
         <li>
-          <Link to="/resume" className="button">Learn More</Link>
+          <Link to="/resume" className="button">Check out my resume!</Link>
         </li>
       </ul>
     </section>

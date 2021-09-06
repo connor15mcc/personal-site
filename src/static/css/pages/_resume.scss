@@ -22,12 +22,14 @@
 
 		.title {
 			text-align: center;
-			margin-bottom: 2em;
+			// margin-bottom: 2em;
 		}
+
 	}
 	.experience {
 		.title {
 			text-align: center;
+			margin-top: 2em;
 		}
 		.job {
 			margin: 1em;
@@ -83,22 +85,37 @@
 }
 
 .degree-container {
-	h4 {
-		font-weight: normal;
-	}
+	// h4 {
+	// 	font-weight: normal;
+	// }
 
-	.degree {
-		margin-bottom: .1em;
-		text-transform: none;
-		letter-spacing: 0.16em;
-		font-size: .8em;
-	}
 
 	.school {
-		text-transform: none;
-		padding-top: 0.3em;
-		margin-bottom: 1em;
+		// margin: 1em;
+		p{
+			margin: 0;
+			padding: 0;
+		}
 	}
+
+	// .degree {
+	// 	margin-bottom: 2em;
+	// 	text-transform: none;
+	// 	letter-spacing: 0.16em;
+	// 	font-size: 0.85em;
+	// 	// text-align: right;
+	// }
+
+	// .school {
+	// 	text-transform: none;
+	// 	padding-top: 0.3em;
+	// 	margin-bottom: .5em;
+	// 	// text-align: right;
+	// }
+}
+
+.education {
+	display: inline;
 }
 
 .courses .course-number {
