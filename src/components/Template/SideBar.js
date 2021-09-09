@@ -26,16 +26,11 @@ const SideBar = () => (
         I&apos;m especially passionate about building complex software and in the
         intersection of software engineering and data analysis.
       </p>
-      <ul className="actions">
-        <li>
-          <Link to="/resume" className="button">Check out my resume!</Link>
-        </li>
-      </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Connor McCarthy <Link to="/">TODO.com</Link>.</p>
+      <p className="copyright">&copy; Connor McCarthy | <Link to="https://connormccarthy.org/">connormccarthy.org</Link>.</p>
     </section>
   </section>
 );

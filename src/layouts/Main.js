@@ -17,10 +17,10 @@ const Main = (props) => (
     </Helmet>
     <div id="wrapper">
       <Navigation />
+      {props.fullPage ? null : <SideBar />}
       <div id="main">
         {props.children}
       </div>
-      {props.fullPage ? null : <SideBar />}
     </div>
   </HelmetProvider>
 );

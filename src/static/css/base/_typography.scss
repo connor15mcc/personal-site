@@ -18,19 +18,19 @@
 		}
 
 		@include breakpoint(large) {
-			font-size: 12pt;
+			font-size: 16pt;
 		}
 
 		@include breakpoint(medium) {
-			font-size: 12pt;
+			font-size: 24pt;
 		}
 
 		@include breakpoint(small) {
-			font-size: 12pt;
+			font-size: 24pt;
 		}
 
 		@include breakpoint(xsmall) {
-			font-size: 12pt;
+			font-size: 30pt;
 		}
 	}
 
@@ -82,8 +82,28 @@
 		text-transform: uppercase;
 
 		a {
+			@include vendor('transition', (
+				'color #{_duration(transition)} ease',
+				'border-bottom-color #{_duration(transition)} ease'
+			));
+			border-bottom: dotted 1px _palette(border-alt);
 			color: inherit;
-			border-bottom: 0;
+			text-decoration: none;
+
+			&:before {
+				@include vendor('transition', (
+					'color #{_duration(transition)} ease'
+				));
+			}
+
+			&:hover {
+				border-bottom-color: transparent;
+				color: _palette(accent) !important;
+
+				&:before {
+					color: _palette(accent) !important;
+				}
+			}
 		}
 	}
 

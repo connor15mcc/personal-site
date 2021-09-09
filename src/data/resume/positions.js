@@ -13,7 +13,7 @@ const positions = [
   {
     company: 'Cornell Rocketry Team',
     position: 'Electronics & Software Subteam Member',
-    link: 'cornellrocketryteam.com',
+    link: 'https://www.cornellrocketryteam.com/',
     daterange: 'Sept. 2019 - Present',
     points: [
       'Created GUI with Java to display critical flight statuses & supervise launch vehicle, retrieving data from PostgreSQL database.',
@@ -25,7 +25,7 @@ const positions = [
   {
     company: 'Cayuga Capital Cornell',
     position: 'Electronics & Software Subteam Member',
-    link: 'cayugacapitalcornell.com',
+    link: 'https://www.cayugacapitalcornell.com/',
     daterange: 'Aug. 2019 - Present',
     points: [
       'Lead development of Python trading program which utilizes many data sources, backtesting, with automated trade execution.',
@@ -35,21 +35,21 @@ const positions = [
     ],
   },
   {
-    company: 'São Martinho',
-    position: 'Software Engineering Intern',
-    link: 'https://www.saomartinho.com.br/',
-    daterange: 'June 2019 - Aug. 2019',
-    points: [
-      'Learned about and worked with the software control systems regulating continuous operation of the world\'s largest sugar mill.',
-    ],
-  },
-  {
     company: 'Blue Logic Capital',
     position: 'Venture Capital Intern',
     link: 'https://bluelogiccapital.com/',
     daterange: 'June 2020 - Aug. 2020',
     points: [
       'Led research and performed due diligence on investment opportunity, creating financial projections to model future growth and ROI.',
+    ],
+  },
+  {
+    company: 'São Martinho',
+    position: 'Software Engineering Intern',
+    link: 'https://www.saomartinho.com.br/',
+    daterange: 'June 2019 - Aug. 2019',
+    points: [
+      'Learned about and worked with the software control systems regulating continuous operation of the world\'s largest sugar mill.',
     ],
   },
 ];

@@ -44,6 +44,7 @@
 			line-height: inherit;
 			padding: 0 0 0 1.5em;
 			white-space: nowrap;
+			border-bottom: 0;
 
 			a {
 				font-size: 0.7em;
@@ -195,6 +196,7 @@
 	}
 
 	#header .index-link {
+		border-bottom: 0;
 		z-index: 3;
 	}
 
@@ -231,5 +233,6 @@
 @include breakpoint(medium) {
 	.hamburger-container  {
 		display: initial;
+		height: 0em;
 	}
 }
