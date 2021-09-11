@@ -25,16 +25,6 @@ class Skills extends Component {
     ), 'All');
 
     return this.state.skills
-      // .sort((a, b) => {
-      //   let ret = 0;
-      //   if (a.competency > b.competency) ret = -1;
-      //   else if (a.competency < b.competency) ret = 1;
-      //   else if (a.category[0] > b.category[0]) ret = -1;
-      //   else if (a.category[0] < b.category[0]) ret = 1;
-      //   else if (a.title > b.title) ret = 1;
-      //   else if (a.title < b.title) ret = -1;
-      //   return ret;
-      // })
       .filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
       .map((skill) => (
         <SkillBar
