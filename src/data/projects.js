@@ -4,6 +4,7 @@ const data = [
     title: 'Monopoly',
     image: '/images/projects/monopoly.png',
     date: '2021-05-25',
+    link: 'https://github.com/connor15mcc/monopoly',
     desc:
       'Replicated a four person game of Monopoly in OCaml. '
       + 'This project, 2800 lines of code long, provided true-to-reality '
