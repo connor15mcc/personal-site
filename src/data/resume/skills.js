@@ -1,8 +1,10 @@
+import { catSort } from './categories';
+
 const skills = [
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Machine Learning', 'Data Engineering', 'Python', 'Data Science', 'Object-Oriented Programming', 'Data Visualization'],
+    category: ['Languages', 'Object-Oriented Programming', 'Data Science', 'Python'],
   },
   {
     title: 'Java',
@@ -20,39 +22,24 @@ const skills = [
     category: ['Languages', 'Functional Programming'],
   },
   {
-    title: 'SQL',
-    competency: 4,
-    category: ['Languages', 'Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages', 'Data Science', 'Data Visualization'],
-  },
-  {
-    title: 'Bash',
-    competency: 3,
-    category: ['Languages', 'Data Science'],
-  },
-  {
-    title: 'LaTeX',
-    competency: 4,
-    category: ['Technical Writing'],
-  },
-  {
     title: 'Git',
     competency: 4,
     category: ['Tools'],
   },
   {
-    title: 'Machine Learning (TODO)',
-    competency: 3,
-    category: ['Machine Learning'],
+    title: 'PostgreSQL/SQL',
+    competency: 4,
+    category: ['Languages', 'Data Science'],
   },
   {
-    title: 'API Requests',
-    competency: 3,
-    category: ['Other'],
+    title: 'LaTeX',
+    competency: 4,
+    category: ['Other', 'Data Science'],
+  },
+  {
+    title: 'Jupyter',
+    competency: 4,
+    category: ['Python', 'Data Science'],
   },
   {
     title: 'Amazon S3',
@@ -65,43 +52,70 @@ const skills = [
     category: ['Tools'],
   },
   {
+    title: 'API Requests',
+    competency: 3,
+    category: ['Other'],
+  },
+  {
+    title: 'R',
+    competency: 2,
+    category: ['Languages', 'Data Science'],
+  },
+  {
     title: 'Databricks',
     competency: 3,
     category: ['Tools'],
+  },
+  {
+    title: 'Bash',
+    competency: 3,
+    category: ['Languages', 'Tools'],
   },
   {
     title: 'Spark',
     competency: 1,
     category: ['Tools'],
   },
+  {
+    title: 'Scikit-Learn',
+    competency: 4,
+    category: ['Python'],
+  },
+  {
+    title: 'Numpy',
+    competency: 3,
+    category: ['Python'],
+  },
+  {
+    title: 'Matplotlib',
+    competency: 3,
+    category: ['Data Science', 'Python'],
+  },
+  {
+    title: 'Pandas',
+    competency: 3,
+    category: ['Python'],
+  },
 ].map((skill) => ({ ...skill, category: skill.category }));
 
-// this is a list of colors that I like. The length should be == to the
-// number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
   '#00b8ff',
-  '#00ff9f',
-  '#001eff',
-  '#bd00ff',
   '#6968b3',
-  '#37b1f5',
+  '#00ff9f',
+  '#bd00ff',
+  '#e47272',
   '#40494e',
+  '#001eff',
+  '#cc7b94',
   '#515dd4',
   '#243447',
-  '#e47272',
-  '#001eff',
-  // '#3896e2',
-  // '#c3423f',
-  // '#d75858',
-  // '#747fff',
-  // '#64cb7b',
-  '#cc7b94',
+  '#37b1f5',
 ];
 
 const categories = [
   ...new Set(skills.reduce((acc, { category }) => acc.concat(category), [])),
 ]
-  // .sort()
+  .sort(catSort)
   .map((category, index) => ({
     name: category,
     color: colors[index],
