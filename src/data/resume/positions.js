@@ -8,7 +8,9 @@ const positions = [
       'Built an inference environment replicating production logic that determines when a POI has opened or closed, facilitating iteration.',
       'Implemented improvements identified within above environment in Scala production pipeline, increasing the inference rate by 7%.',
       'Added custom tooling for the product team to easily mark a subset of ~7000 weekly crawl files for reprocessing.',
+      'Presented my findings and technical changes to the engineering team and then entire company in a end-of-internship presentation.',
     ],
+    skills: 'Scala, Python, PostgreSQL, AWS S3, Elm, Databricks',
   },
   {
     company: 'Cornell Rocketry Team',
@@ -21,6 +23,7 @@ const positions = [
       'Developed procedural programming layer in C to interface flight control board with a Wi-Fi module, allowing wireless data transfer.',
       'Worked with a team of 5 to develop tests and report on many aspects of our project to the rest of the NASA award-winning team.',
     ],
+    skills: 'Java, C',
   },
   {
     company: 'Cayuga Capital Cornell',
@@ -33,6 +36,7 @@ const positions = [
       'Work with team of 6 to develop signal-generation algorithms using various fundamental, technical, alternative, and ML techniques.',
       'Optimized this program for performance by implementing more OO design, a TimescaleDB database, & reducing API requests.',
     ],
+    skills: 'Python, TimescaleDB, Numpy, Pandas, API, Matplotlib',
   },
   {
     company: 'Blue Logic Capital',

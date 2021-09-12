@@ -11,6 +11,8 @@ const Job = ({ data }) => (
       {data.points.map((point) => (
         <li key={point}>{point}</li>
       ))}
+      {(data.skills != null)
+        && <li key={data.skills}><b> Implemented using: </b>{data.skills}</li>}
     </ul>
   </article>
 );
@@ -21,6 +23,7 @@ Job.propTypes = {
     company: PropTypes.string.isRequired,
     position: PropTypes.string.isRequired,
     daterange: PropTypes.string.isRequired,
+    skills: PropTypes.string,
     points: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
 };
