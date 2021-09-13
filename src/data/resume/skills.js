@@ -19,7 +19,7 @@ const skills = [
   {
     title: 'Scala',
     competency: 3,
-    category: ['Languages', 'Functional Programming'],
+    category: ['Languages', 'Functional Programming', 'Object-Oriented Programming'],
   },
   {
     title: 'Git',
