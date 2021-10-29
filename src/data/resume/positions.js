@@ -27,7 +27,7 @@ const positions = [
   },
   {
     company: 'Cayuga Capital Cornell',
-    position: 'Electronics & Software Subteam Member',
+    position: 'Algorithmic Trading Team Lead, VP of Team Leads & Allocation',
     link: 'https://www.cayugacapitalcornell.com/',
     daterange: 'Aug. 2019 - Present',
     points: [
