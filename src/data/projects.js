@@ -1,6 +1,26 @@
 // TODO Add techincal details about each project (language, tools, etc)
 const data = [
   {
+    title: 'Historical Voter Information',
+    image: '/images/projects/votes.png',
+    date: '2021-10-14',
+    desc:
+      'Scraped historical voter information from the web using Python ' +
+      'and organized said information to generate insights to assist ' +
+      'with voter canvassing for a local First Selectman candidate.'
+  },
+  {
+    title: 'Terminal Coding Competition',
+    image: '/images/projects/terminal.jpg',
+    date: '2021-9-20',
+    link: 'https://terminal.c1games.com/',
+    desc:
+      'Participated in the terminal coding challenge, sponsored by Citadel ' +
+      'and Citadel Securities. Worked with a team of three to create an algorithm ' +
+      'intened to most optimally play the tower defense strategy game.'
+
+  },
+  {
     title: 'Monopoly',
     image: '/images/projects/monopoly.png',
     date: '2021-05-25',
