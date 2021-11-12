@@ -17,8 +17,7 @@ const data = [
     desc:
       'Participated in the terminal coding challenge, sponsored by Citadel '
       + 'and Citadel Securities. Worked with a team of three to create an algorithm '
-      + 'intened to most optimally play the tower defense strategy game.',
-
+      + 'that competed to most optimally play the tower defense strategy game.',
   },
   {
     title: 'COVID-19 Hospitalization Prediction',
