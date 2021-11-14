@@ -1,4 +1,4 @@
-# prefer npm over yarn 
+# prefer npm over yarn
 yarn.lock
 
 # eslint
@@ -47,3 +47,7 @@ build/
 
 # Nohup
 nohup.out
+
+# Dev Env
+.metals/*
+.vscode/*
