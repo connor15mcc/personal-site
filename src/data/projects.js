@@ -2,7 +2,7 @@
 const data = [
   {
     title: '2048 AI',
-    image: '/images/projects/2048.jpg',
+    image: '/images/projects/twentyfourtyeight.jpg',
     date: '2021-11-28',
     link: 'https://github.com/connor15mcc/ai-2048',
     desc:
