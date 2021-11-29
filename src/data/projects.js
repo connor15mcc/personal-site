@@ -1,6 +1,16 @@
 // TODO Add techincal details about each project (language, tools, etc)
 const data = [
   {
+    title: '2048 AI',
+    image: '/images/projects/2048.jpg',
+    date: '2021-11-28',
+    link: 'https://github.com/connor15mcc/ai-2048',
+    desc:
+      'Created an AI that utilizes the ExpectiMax algorithm along with game heuristics '
+      + 'in order to assess the best possible move and play an optimal game, allowing it '
+      + 'to beat the game (by achieving the 2048 tile).',
+  },
+  {
     title: 'Historical Voter Information',
     image: '/images/projects/votes.png',
     date: '2021-10-14',
