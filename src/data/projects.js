@@ -1,5 +1,15 @@
-// TODO Add techincal details about each project (language, tools, etc)
 const data = [
+  {
+    title: 'Flask Job Application Tracker',
+    image: '/images/projects/apptracker.png',
+    date: '2022-1-20',
+    link: 'https://github.com/connor15mcc/dashboards',
+    desc:
+      'Built a Flask web app to track the progress of my various job applications. '
+      + 'This app leverages an SQLite database as well as a Docker deployment environment '
+      + 'and features a progress tracker, job application dashboard, and login/logout '
+      + 'functionality.',
+  },
   {
     title: '2048 AI',
     image: '/images/projects/twentyfourtyeight.jpg',

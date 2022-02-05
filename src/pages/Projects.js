@@ -11,13 +11,13 @@ const Projects = () => (
     title="Projects"
     description="Learn about some of my projects!"
   >
-    <article className="post" id="projects">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
-          <p>Here are some of the projects that I&apos;ve been working on recently...</p>
-        </div>
-      </header>
+    <header>
+      <div className="title">
+        <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
+        <p>Here are some of the projects that I&apos;ve been working on recently...</p>
+      </div>
+    </header>
+    <article className="post project" id="projects">
       {data.map((project) => (
         <Cell
           data={project}
