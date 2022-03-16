@@ -1,5 +1,11 @@
 const positions = [
   {
+    company: 'Lyft',
+    position: 'Software Engineer Intern',
+    link: 'https://www.lyft.com/',
+    daterange: 'May 2022 - Aug. 2022',
+  },
+  {
     company: 'Safegraph',
     position: 'Software Engineer Intern',
     link: 'https://safegraph.com',
@@ -16,7 +22,7 @@ const positions = [
     company: 'Cornell Rocketry Team',
     position: 'Electronics & Software Subteam Member',
     link: 'https://www.cornellrocketryteam.com/',
-    daterange: 'Sept. 2019 - Present',
+    daterange: 'Sept. 2019 - Jan. 2022',
     points: [
       'Created GUI with Java to display critical flight statuses & supervise launch vehicle, retrieving data from PostgreSQL database.',
       'Implemented a system that translates the RF signals from the airborne rocket and stores these datapoints as entries on the database.',
@@ -29,7 +35,7 @@ const positions = [
     company: 'Cayuga Capital Cornell',
     position: 'Algorithmic Trading Team Lead, VP of Team Leads & Allocation',
     link: 'https://www.cayugacapitalcornell.com/',
-    daterange: 'Aug. 2019 - Present',
+    daterange: 'Aug. 2019 - Jan. 2022',
     points: [
       'Lead development of Python trading program which utilizes many data sources, backtesting, with automated trade execution.',
       'Created the Python test suite which ensures the veracity of the entire codebase and maintains correctness between each improvement.',
