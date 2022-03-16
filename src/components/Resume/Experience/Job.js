@@ -8,9 +8,10 @@ const Job = ({ data }) => (
       <p className="daterange"> {data.daterange}</p>
     </header>
     <ul className="points">
-      {data.points.map((point) => (
-        <li key={point}>{point}</li>
-      ))}
+      {(data.points != null)
+        && data.points.map((point) => (
+          <li key={point}>{point}</li>
+        ))}
       {(data.skills != null)
         && <li key={data.skills}><b> Implemented using: </b>{data.skills}</li>}
     </ul>
