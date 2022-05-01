@@ -6,7 +6,19 @@ const courses = [
     university: 'Cornell',
   },
   {
-    title: 'Intro to Database Systems',
+    title: 'Machine Learning',
+    number: 'CS 4780',
+    link: 'https://classes.cornell.edu/browse/roster/SP21/class/CS/4780',
+    university: 'Cornell',
+  },
+  {
+    title: 'Computer Vision',
+    number: 'CS 4670',
+    link: 'https://classes.cornell.edu/browse/roster/SP22/class/CS/4670',
+    university: 'Cornell',
+  },
+  {
+    title: 'Database Systems',
     number: 'CS 4320',
     link: 'http://databaselecture.com/',
     university: 'Cornell',
@@ -15,12 +27,6 @@ const courses = [
     title: 'Data Structures & Functional Programming',
     number: 'CS 3110',
     link: 'https://www.cs.cornell.edu/courses/cs3110/2021sp/',
-    university: 'Cornell',
-  },
-  {
-    title: 'Introduction to Machine Learning',
-    number: 'CS 4780',
-    link: 'https://classes.cornell.edu/browse/roster/SP21/class/CS/4780',
     university: 'Cornell',
   },
   {
@@ -34,6 +40,30 @@ const courses = [
     title: 'Discrete Structures',
     number: 'CS 2800',
     link: 'https://classes.cornell.edu/browse/roster/FA20/class/CS/2800',
+    university: 'Cornell',
+  },
+  {
+    title: 'Computer System Organization',
+    number: 'CS 3410',
+    link: 'https://classes.cornell.edu/browse/roster/SP22/class/CS/3410',
+    university: 'Cornell',
+  },
+  {
+    title: 'Operating Systems',
+    number: 'CS 4410',
+    link: 'https://classes.cornell.edu/browse/roster/FA22/class/CS/4410',
+    university: 'Cornell',
+  },
+  {
+    title: 'Data-Driven Web Applications',
+    number: 'CS 3300',
+    link: 'https://classes.cornell.edu/browse/roster/FA22/class/CS/3300',
+    university: 'Cornell',
+  },
+  {
+    title: 'Practical Tools for OR and Machine Learning',
+    number: 'ORIE 3120',
+    link: 'https://people.orie.cornell.edu/pfrazier/orie3120/',
     university: 'Cornell',
   },
   {
