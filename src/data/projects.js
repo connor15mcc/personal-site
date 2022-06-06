@@ -1,5 +1,16 @@
 const data = [
   {
+    title: 'An Analysis of the NYC Taxi Industry',
+    image: '/images/projects/taxi-graph.png',
+    date: '2022-6-5',
+    link: 'taxi-report.pdf',
+    desc:
+      'Conducted a thorough analysis of consumer taxi-ride trends in the NYC metro area '
+      + 'in order to create recommendations for drivers to improve their profitability. '
+      + 'This report employed data analysis techniques like Monte Carlo simululation, linear '
+      + 'regression, and Holt-Winters forecasting.',
+  },
+  {
     title: 'Flask Job Application Tracker',
     image: '/images/projects/apptracker.png',
     date: '2022-1-20',
