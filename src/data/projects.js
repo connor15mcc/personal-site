@@ -1,5 +1,14 @@
 const data = [
   {
+    title: 'Minimum Spanning Tree Visualization',
+    image: '/images/projects/mst.png',
+    date: '2022-6-29',
+    link: 'https://github.com/connor15mcc/mst-visualization',
+    desc:
+      'Exploring the visualization minimum spanning trees (Prim\'s algorithm) '
+      + 'while learning Typescript utilizing p5.js.',
+  },
+  {
     title: 'An Analysis of the NYC Taxi Industry',
     image: '/images/projects/taxi-graph.png',
     date: '2022-6-5',
